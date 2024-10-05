@@ -9,6 +9,5 @@ def my_pow(n: int, p: int):
             p -= 1
     return out
 
-
 for k in range(9):
     print(my_pow(2, k))
