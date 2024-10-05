@@ -1,0 +1,3 @@
+{"name": "Biden", "username": "Opaka", "age": 25, "friends": ["Obijaka"], "password": "qwerty"}
+{"name": "Jack", "username": "Obijaka", "age": 19, "friends": ["Opaka"], "password": "12305"}
+{"name": "John Doe", "username": "johndoe123", "age": 25, "friends": ["Jane", "Mike"], "password": "1235"}

@@ -1,0 +1,49 @@
+POST http://127.0.0.1:5000/create_user
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "username": "johndoe123",
+  "age": 25,
+  "friends": ["Jane", "Mike"],
+  "password": "1235"
+}
+###
+POST http://127.0.0.1:5000/create_user
+Content-Type: application/json
+
+{
+  "name": "Jack",
+  "username": "Obijaka",
+  "age": 19,
+  "friends": ["Opaka"],
+  "password": "12305"
+}
+###
+POST http://127.0.0.1:5000/create_user
+Content-Type: application/json
+
+{
+  "name": "Alex",
+  "username": "Opaka",
+  "age": 19,
+  "friends": ["Obijaka"],
+  "password": "qwerty"
+}
+###
+GET http://127.0.0.1:5000/get_users
+###
+GET http://127.0.0.1:5000/get_user/Obijaka
+###
+PUT http://127.0.0.1:5000/update_user/Opaka
+Content-Type: application/json
+
+{
+  "name": "Oleg",
+  "username": "Opaka",
+  "age": 25,
+  "friends": ["Obijaka"],
+  "password": "1055"
+}
+###
+DELETE http://127.0.0.1:5000/delete_user/Obijaka
